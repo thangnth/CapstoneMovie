@@ -1,0 +1,24 @@
+.footer{
+    background-image: url("../../../../public/img/Test-bg.jpg");
+    width : 100vw;
+    background-size: cover;
+    background-position: center;
+    position : relative;
+
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.4)   
+    }
+    .container{
+        margin : 0 auto;
+        z-index: 5;
+        filter : opacity(0.8);
+        padding : 3% 0;
+    }
+
+}

@@ -1,0 +1,32 @@
+.movie-card {
+  position: relative;
+  transition: linear 0.75s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.movie-card:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.movie-card:hover .play-icon {
+  display: inline-block;
+}
+.movie-card img {
+  width: 100%;
+}
+.movie-card .play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 100px;
+  color: white;
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=style.css.map */

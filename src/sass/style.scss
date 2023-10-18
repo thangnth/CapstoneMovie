@@ -1,0 +1,29 @@
+@import "../modules/Home/Showing/Showing.scss";
+@import "../components/Header/Header.scss";
+@import"../modules/Home/Banner/Banner.scss";
+@import"../modules/Details/MovieProfile/MovieProfile.scss";
+@import"../modules/Details/ShowTimes/ShowTime.scss";
+@import"../modules/Booking/Booking.scss";
+@import"../modules/Auth/Auth.scss";
+@import"../modules/Home/Footer/Footer.scss";
+@import"../modules/Home/Cinema/Cinema.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.modal-header {
+  background-color: black;
+  color: white;
+  & .close-modal {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding-right: 5px;
+  }
+}

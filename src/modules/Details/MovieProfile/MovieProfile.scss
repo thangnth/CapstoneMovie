@@ -1,0 +1,42 @@
+.movieProfile {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding : 5%;
+    color: white;
+  
+
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8)   
+    }
+.container {
+    width : 80vw;
+    margin :  0 auto;
+
+    .movie-info{
+        width : 60%;
+        z-index: 10;
+        filter: opacity(1);
+    
+            img{
+                width : 100%;
+                box-shadow: 0px 3px 3px 3px #999999;
+                margin-right : 3%;
+            }
+            .tenPhim{
+                font-size: 20px;
+                font-weight: 600;
+                color: aquamarine;
+
+            }
+
+}
+}
+}

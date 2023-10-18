@@ -1,0 +1,17 @@
+.header{
+    background-color:  #e9d5a3;
+    .logo{
+        color : #a32323;
+    }
+    .nav{
+        color: rgb(36, 35, 35);
+        &:hover{
+            color : #a32323;
+        }
+    }
+    .bi{
+        color : #a32323;
+    }
+    
+
+}

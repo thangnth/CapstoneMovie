@@ -1,0 +1,37 @@
+.auth{
+    background-image: url(../../../public/img/welcome.jpeg);
+    height: 100vh;
+    background-size: cover; 
+    background-position: top;
+    padding-top: 5%;
+    color : #a32323;
+    
+    .container{
+        background-color : #e9d5a3;
+        width : 50vw;
+        margin : 0 auto;
+        padding : 2%;
+        border : 1px solid;
+        border-radius: 6px;
+
+        input{
+            width : 20vw;
+            margin-bottom : 2%;
+            padding : 2%;
+            border-radius: 6px;
+        }
+        button {
+            margin : 1%;
+            padding : 2%;
+            background-color: #a32323;
+            color :#e9d5a3;
+            padding : 1%;
+            border-radius: 6px;
+            transition : all 0.5s;
+            &:hover{
+                background-color: #e9d5a3;
+                color : #a32323;
+            }
+        }
+    }
+}
