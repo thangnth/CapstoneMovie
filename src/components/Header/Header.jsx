@@ -16,8 +16,8 @@ export default function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link className="nav"href="/">Trang chủ</Nav.Link>
-              <Nav.Link className="nav"href="#systems-cinemas-showtimes">Lịch chiếu</Nav.Link>
-              <Nav.Link className="nav"href="#systems-cinemas-showtimes">Cụm rạp</Nav.Link>
+              <Nav.Link className="nav"href="/#systems-cinemas-showtimes">Lịch chiếu</Nav.Link>
+              <Nav.Link className="nav"href="/#systems-cinemas-showtimes">Cụm rạp</Nav.Link>
               <Nav.Link className="nav"href="/">Liên hệ</Nav.Link>
             </Nav>
             {currentUser ? (

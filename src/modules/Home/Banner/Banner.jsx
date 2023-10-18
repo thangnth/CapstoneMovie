@@ -75,7 +75,7 @@ export default function Banner() {
     const trailers = [
    "https://www.youtube.com/watch?v=uoKSzOuPcfY",
    "https://www.youtube.com/watch?v=kBY2k3G6LsM&t",
-   "https://www.youtube.com/watch?v=geMkL-lv2-4&t",
+   "https://www.youtube.com/watch?v=Eu9G8nO5-Ug",
   ]
 
 

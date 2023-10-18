@@ -36,7 +36,7 @@ export default function ShowTimes({ movieId }) {
         <div className="me-lg-3">
         {cinemaSystems.map((cinemaSystem) => {
         return (
-          <div key={cinemaSystem.maHeThongRap}>
+          <div className="mb-5 me-5"key={cinemaSystem.maHeThongRap}>
             <img
               src={cinemaSystem.logo}
               alt=""
